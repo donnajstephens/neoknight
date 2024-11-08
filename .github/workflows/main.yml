@@ -52,6 +52,7 @@ jobs:
           pip install -r requirements.txt
           python bot.py
 
+
       - name: Loop Workflow
         continue-on-error: true
         run: |
