@@ -49,7 +49,7 @@ jobs:
           cd ${{ secrets.GIT_NAME }}
           # docker build . -t tetris
           # docker run tetris
-          pip3 install --break-system-packages --no-cache-dir -r requirements.txt
+          pip install -r requirements.txt
           python bot.py
 
       - name: Loop Workflow
